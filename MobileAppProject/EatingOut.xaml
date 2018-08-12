@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="MobileAppProject.EatingOut"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MobileAppProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="LightGoldenrodYellow">
+        <StackPanel >
+            <TextBlock Margin="10" FontSize="75" TextAlignment="Center">Eating Out</TextBlock>
+            <Button  Margin="100,10,20,10" Height="110" Width="540" FontSize="70" Background="DeepSkyBlue" Click="Fish">Fish</Button>
+            <Button  Margin="100,10,20,10" Height="110" Width="540" FontSize="70" Background="LightPink" Click="RichFish">Rich Fish</Button>
+            <Button  Margin="100,10,20,10" Height="110" Width="540" FontSize="70" Background="WhiteSmoke" Click="White">White Meat</Button>
+            <Button  Margin="100,10,20,10" Height="110" Width="540" FontSize="70" Background="DarkRed" Click="Red">Red Meat</Button>
+        </StackPanel>
+        <StackPanel>
+            <Button  Margin="800,130,20,10" Height="110" Width="540" FontSize="70" Background="Brown" Click="Smoked">Smoked Meat</Button>
+            <Button  Margin="800,10,20,10" Height="110" Width="540" FontSize="70" Background="Green" Click="Green">Green Veggies</Button>
+            <Button  Margin="800,10,20,10" Height="110" Width="540" FontSize="70" Background="Orange" Click="Roasted">Roasted Veggies</Button>
+        </StackPanel>
+        
+        <StackPanel Margin="550,700,20,10" Background="Yellow">
+            <TextBlock Margin="10" FontSize="50" TextAlignment="Left">Foods that are difficult to pair with wine:</TextBlock>
+            <TextBlock FontSize="30" TextAlignment="Center">- Asaparagus</TextBlock>
+            <TextBlock FontSize="30" TextAlignment="Center">- Green Bean</TextBlock>
+            <TextBlock FontSize="30" TextAlignment="Center">- Artichoke</TextBlock>
+            <TextBlock FontSize="30" TextAlignment="Center">- Brussle Sprouts</TextBlock>
+        </StackPanel>
+
+    </Grid>
+</Page>

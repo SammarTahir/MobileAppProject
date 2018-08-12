@@ -7,7 +7,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Grid Background="#FF30C7D6">
+        <StackPanel>
+            <TextBlock Margin="10" FontSize="75" TextAlignment="Center">Wine and Dine</TextBlock>
+            <Button  Margin="550,10,20,10" Height="110" Width="420" FontSize="70" Background="LightGoldenrodYellow" Click="EatingOut">Eating Out</Button>
+            <Button Margin="550,20,20,10" Height="110" Width="420" FontSize="70" Background="CornflowerBlue" >Pizza Night</Button>
+            <Button Margin="550,20,20,10" Height="110" Width="420" FontSize="70" Background="PaleVioletRed">Dessert</Button>
+        </StackPanel>
+        <StackPanel Margin="20,700,270,10">
+            <Button FontSize="30" FontWeight="Bold" FontStyle="Oblique">Address</Button>
+        </StackPanel>
+        
     </Grid>
 </Page>
