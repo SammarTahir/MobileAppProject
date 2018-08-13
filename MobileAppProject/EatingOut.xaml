@@ -29,5 +29,8 @@
             <TextBlock FontSize="30" TextAlignment="Center">- Brussle Sprouts</TextBlock>
         </StackPanel>
 
+        <StackPanel Margin="20,900,270,10">
+            <Button FontSize="30" FontWeight="Bold" FontStyle="Oblique" Click="Back">Back</Button>
+        </StackPanel>
     </Grid>
 </Page>

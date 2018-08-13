@@ -17,9 +17,6 @@ using Windows.UI.Xaml.Navigation;
 
 namespace MobileAppProject
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class EatingOut : Page
     {
         public EatingOut()
@@ -27,29 +24,34 @@ namespace MobileAppProject
             this.InitializeComponent();
         }
 
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage), null);
+        }
+
         private void Fish(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(fish), null);
         }
 
         private void RichFish(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(RichFish), null);
         }
 
         private void White(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(WhiteMeat), null);
         }
 
         private void Red(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(RedMeat), null);
         }
 
         private void Smoked(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(SmokedMeat), null);
         }
 
         private void Green(object sender, RoutedEventArgs e)

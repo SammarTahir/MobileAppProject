@@ -13,27 +13,18 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-
 namespace MobileAppProject
 {
-  
-    public sealed partial class MainPage : Page
+    public sealed partial class RichFish : Page
     {
-        public MainPage()
+        public RichFish()
         {
             this.InitializeComponent();
-        }
-        private void EatingOut(object sender, RoutedEventArgs e)
-        {
-
-            Frame.Navigate(typeof(EatingOut), null);
         }
 
         private void Back(object sender, RoutedEventArgs e)
         {
-
-            Frame.Navigate(typeof(MainPage), null);
+            Frame.Navigate(typeof(EatingOut), null);
         }
-
     }
 }
