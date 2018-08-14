@@ -11,7 +11,7 @@
         <StackPanel>
             <TextBlock Margin="10" FontSize="75" TextAlignment="Center">Wine and Dine</TextBlock>
             <Button  Margin="550,10,20,10" Height="110" Width="420" FontSize="70" Background="LightGoldenrodYellow" Click="EatingOut">Eating Out</Button>
-            <Button Margin="550,20,20,10" Height="110" Width="420" FontSize="70" Background="CornflowerBlue" >Pizza Night</Button>
+            <Button Margin="550,20,20,10" Height="110" Width="420" FontSize="70" Background="CornflowerBlue" Click="PizzaNight">Pizza Night</Button>
             <Button Margin="550,20,20,10" Height="110" Width="420" FontSize="70" Background="PaleVioletRed">Dessert</Button>
         </StackPanel>
         <StackPanel Margin="20,900,270,10">

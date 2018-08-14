@@ -13,8 +13,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace MobileAppProject
 {
     public sealed partial class EatingOut : Page
@@ -56,12 +54,12 @@ namespace MobileAppProject
 
         private void Green(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(GreenVeggies), null);
         }
 
         private void Roasted(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(RoastedVeggies), null);
         }
     }
 }

@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="MobileAppProject.PizzaNight"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MobileAppProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="LightBlue">
+        <Image Source="/Assets/PizzaAndWine.jpg" HorizontalAlignment="Center"/>  
+        <StackPanel Margin="20,900,270,10">
+            <Button FontSize="30" FontWeight="Bold" FontStyle="Oblique" Click="Back">Back</Button>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -101,8 +101,14 @@
     <Compile Include="fish.xaml.cs">
       <DependentUpon>fish.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GreenVeggies.xaml.cs">
+      <DependentUpon>GreenVeggies.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PizzaNight.xaml.cs">
+      <DependentUpon>PizzaNight.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RedMeat.xaml.cs">
@@ -110,6 +116,9 @@
     </Compile>
     <Compile Include="RichFish.xaml.cs">
       <DependentUpon>RichFish.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RoastedVeggies.xaml.cs">
+      <DependentUpon>RoastedVeggies.xaml</DependentUpon>
     </Compile>
     <Compile Include="SmokedMeat.xaml.cs">
       <DependentUpon>SmokedMeat.xaml</DependentUpon>
@@ -125,6 +134,7 @@
     <None Include="MobileAppProject_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\PizzaAndWine.jpg.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -147,15 +157,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="GreenVeggies.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PizzaNight.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RedMeat.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RichFish.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RoastedVeggies.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
