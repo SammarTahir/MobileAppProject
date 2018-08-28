@@ -15,32 +15,16 @@ using Windows.UI.Xaml.Navigation;
 
 namespace MobileAppProject
 {
-  
-    public sealed partial class MainPage : Page
+    public sealed partial class Dessert : Page
     {
-        public MainPage()
+        public Dessert()
         {
             this.InitializeComponent();
-        }
-        private void EatingOut(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(EatingOut), null);
-        }
-
-        private void PizzaNight(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(PizzaNight), null);
-        }
-
-        private void Dessert(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(Dessert), null);
         }
 
         private void Back(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(MainPage), null);
         }
-
     }
 }
