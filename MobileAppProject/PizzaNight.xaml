@@ -8,8 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="LightBlue">
-        <Image Source="/Assets/PizzaAndWine.jpg" HorizontalAlignment="Center"/>  
-        <StackPanel Margin="20,900,270,10">
+        <Image Source="/Assets/PizzaAndWine.jpg" HorizontalAlignment="Center"/>
+        <StackPanel Margin="20,900,1390,46">
             <Button FontSize="30" FontWeight="Bold" FontStyle="Oblique" Click="Back">Back</Button>
         </StackPanel>
     </Grid>

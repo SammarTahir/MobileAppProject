@@ -29,7 +29,7 @@
             <Image Source="/Assets/sherryWine.jpg" HorizontalAlignment="Center" Height="452" Margin="0,0,-11,0" Width="461"/>
             <TextBlock FontSize="30" TextAlignment="Center" TextWrapping="Wrap">This wine's complex flavor of fruit, molasses and nuts makes it the perfect accent to ice cream's smooth texture.</TextBlock>
         </StackPanel>
-        <StackPanel Margin="20,900,270,10">
+        <StackPanel Margin="20,900,1390,46">
             <Button FontSize="30" FontWeight="Bold" FontStyle="Oblique" Click="Back">Back</Button>
         </StackPanel>
     </Grid>

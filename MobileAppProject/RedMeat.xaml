@@ -28,7 +28,7 @@
             <TextBlock FontSize="30" TextAlignment="Center">Zinfandel</TextBlock>
         </StackPanel>
 
-        <StackPanel Margin="20,900,270,10">
+        <StackPanel Margin="20,900,1390,46">
             <Button FontSize="30" FontWeight="Bold" FontStyle="Oblique" Click="Back">Back</Button>
         </StackPanel>
     </Grid>
